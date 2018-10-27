@@ -1,0 +1,110 @@
+$primary: #00a85a;
+$darkprimary: #038347;
+$secondary: #ff9700;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: .8em !important;
+    font-family: 'Product Sans';
+}
+
+.hero {
+    padding: 0px !important;
+}
+
+.hero .navbar {
+    background: #222;
+    padding: 10px 0px;
+}
+
+.my-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 110% !important;
+}
+
+.my-subtitle {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.meme-side,
+.video-side,
+.emoji-side {
+    padding: 25% 80px;
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+    h2,
+    p {
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.685);
+    }
+}
+
+.meme-side {
+    background: #000 url(/img/meme-bg.jpg);
+    background-size: cover;
+    background-position: center; // background: linear-gradient(to bottom, $secondary, #038347);
+}
+
+.video-side {
+    background: $primary url(/img/video-bg.jpg);
+    background-size: cover;
+    background-position: center; // background: linear-gradient(to bottom, $primary, $darkprimary);
+}
+
+.emoji-side {
+    background: $primary url(/img/emoji-bg.jpg);
+    background-size: cover;
+    background-position: center; // background: linear-gradient(to bottom, $primary, $darkprimary);
+}
+
+.trivia-plane,
+.meme-plane {
+    padding: 90px 30px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23efefef' fill-opacity='0.69'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.footery {
+    padding: 30px;
+}
+
+.spaced-50 {
+    height: 20vh;
+}
+
+.trivia-hero {
+    background: url(https://www.nairaland.com/attachments/4410549_3akwaibom_jpeg649539f160ab28a9994ca6b006426176) no-repeat center center;
+    background-size: cover;
+}
+
+.meme-hero {
+    background: url(/img/meme-hero.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.mouse-bounce {
+    width: 32px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .meme-side,
+    .video-side,
+    .emoji-side {
+        padding: 20% 50px;
+        text-align: center;
+        height: 40vh;
+        color: #fff;
+        h2,
+        p {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.52);
+        }
+    }
+}
