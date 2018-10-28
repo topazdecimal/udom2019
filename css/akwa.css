@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-size: .8em !important;
+  font-size: 1em !important;
   font-family: 'Product Sans';
 }
 
@@ -18,7 +18,7 @@ body {
 
 .my-title {
   font-family: 'Luckiest Guy', cursive;
-  font-size: 2.4em;
+  font-size: 2.8em;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -27,13 +27,13 @@ body {
 
 .my-subtitle {
   font-size: 1.4em;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .meme-side,
 .video-side,
 .emoji-side {
-  padding: 25% 80px;
+  padding: 20% 80px;
   text-align: center;
   height: 100vh;
   color: #fff;
